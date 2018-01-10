@@ -1,0 +1,325 @@
+@charset "ISO-8859-1";
+
+
+body{
+     margin: 0px;
+     color:black;
+}
+.center
+{
+	min-height: 480px;
+	margin-bottom: 50px;
+         width:100%;
+	opacity:0.8;
+	margin:auto;
+}
+
+.nav
+{
+min-height: 30px;
+max-height: 100px;
+background-color: black;
+opacity: 0.9;
+width: 100%;
+margin-top: 0px;
+color:white;
+}
+.navMin
+{
+height: 50px;
+background-color: black;
+opacity: 0.9;
+width: 100%;
+margin-top: 0px;
+color:white;
+}
+
+.topNav
+{
+min-height: 80px;
+background-color: #b0b0ff;
+opacity:0.6;
+
+}
+.sideNav
+{
+	width:150px;
+	float:left;
+	background-color: white;
+	min-height:530px;
+	border-radius: 10px;
+	margin-top: 25px;
+	
+	
+}
+
+
+.ContentBox
+{
+	min-height: 350px;
+	width: 500px;
+	border-radius: 10px;
+	background-color: black;
+	margin:auto;
+	allign:center;
+	opacity:0.9;
+        color: white;
+        margin-top: 40px;
+	
+}
+.buttons
+{
+	background-color: white;
+	height:30px;
+	min-width:90px;
+	border-radius:8px;
+	font-size: 20px;
+	font-weight: bold;
+	font-color:#400040;
+}
+
+.inputfeilds
+{
+	height:20px;
+	min-width:70px;
+	border-radius:8px;
+}
+.ActiveRow{
+    background-color:greenyellow;
+}
+
+.PassiveRow{
+    background-color: gold;
+}
+
+.NormalRow{
+    background-color: lavenderblush;
+}
+        .context-menu {
+            display: none;
+            position: absolute;
+            z-index: 5000;
+            padding: 12px 0;
+            width: 240px;
+            background-color: #fff;
+            border: solid 1px #dfdfdf;
+            box-shadow: 1px 1px 2px #cfcfcf;
+        }
+
+        .context-menu--active {
+            display: block;
+        }
+
+        .context-menu__items {
+            list-style: none;
+            margin: 0;
+            padding: 0 .5em;
+        }
+        
+        .context-menu__item-list{
+            
+            border-bottom-style: solid;
+            border-bottom-color: #0066aa;
+            border-width: 1px;
+        }
+
+        .context-menu__item {
+            display: block;
+            border-bottom: #0066aa;
+            border-bottom-style: solid;
+            border-bottom-color: #0066aa;
+            border-width: 1px;
+        }
+
+        .context-menu__item:last-child {
+            margin-bottom: 0;
+            border-bottom: 0;
+        }
+
+        .context-menu__arrow{
+            float:right;
+        }
+        
+        .context-menu__link {
+            display: block;
+            padding: 4px 12px;
+            color: #0066aa;
+            text-decoration: none;
+        }
+
+        .context-menu__link:hover {
+            color: #fff;
+            background-color: #0066aa;
+        }
+        
+        .context-menu__list{
+            list-style: none;
+            display:none;
+            position:absolute;
+            left:240px;
+            padding: 12px 0;
+            width: 240px;
+            background-color: #fff;
+            border: solid 1px #dfdfdf;
+            box-shadow: 1px 1px 2px #cfcfcf;
+        }
+        
+        iframe.dictionaryFrame{
+            width: 100%;
+            height: 100%;
+            flex: 1;
+            overflow-x: auto;
+            border:none;
+        }
+        
+       
+         #sigma-container.MinGraph
+        {
+            height: 600px;
+        }
+       
+        
+  .backgroundblur {
+    -webkit-filter: blur(8px) grayscale(100);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px)  grayscale(100);
+}   
+
+#RecentProjectsDiv
+{
+    width: 80%;
+    float: right;
+    background-color:white;
+}
+
+#RecentProjectsDiv tr {
+   background-color: #dedbde;
+   height: 80px;
+}
+#RecentProjectsDiv tr td a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+}
+#RecentProjectsDiv tr td
+{
+    padding-left: 20px;
+}
+.mainDivWelcome{
+    
+    width: 1000px;
+    height: 460px;
+    allign:center;
+    margin: auto;
+    background-color:#dedbde;
+}
+#HomeButton {
+    width: 40px;height: 40px;float: right;padding-right: 20px;
+}
+.mainDivCompare {
+    
+    width: 1000px;height: 450px;allign:center;margin: auto;background-color:#dedbde;
+}
+#CompareDiv1{
+    width: 450px;height: 400px;float: left;padding: 15px;overflow-y: scroll;
+}
+#CompareDiv2{
+    width: 450px;float: right;height: 400px;padding: 15px;overflow-y: scroll;
+}
+#CompareTable{
+    width: 400px;border: black; border-right-style: double;border-left-style: double;background-color: white;
+}
+.nav #headingMainPage
+{
+    color:white;
+    font-family:cursive;
+    font-size: 60px;
+}
+#heading
+{
+    color:white;
+    font-family:cursive;
+    font-size: 30px;
+    float: left;
+    display: inline;
+    max-width: 10%;
+    position: relative;
+}
+.nav #SideDiv
+{
+    float:right;
+    padding: 20px;
+    
+}
+
+.nav #SideDiv a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family:cursive;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left:20px;
+    
+}
+.navMin #SideDiv
+{
+    float:right;
+    padding: 20px;
+    
+}
+
+.navMin #SideDiv a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family:cursive;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left:20px;
+    
+}
+
+#LoginDiv
+{
+    padding-top:50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:80px;
+    font-family:cursive;
+}
+
+#RegistrationDiv
+{
+   
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    padding-left: 30px;
+}
+
+ #Words .Active {
+            background-color: white;
+          
+        }
+        
+        #Words .InActive
+        {
+            background-color: green;
+            cursor: pointer;
+            border-style: solid;
+            height: 20px;
+            border-color: grey;
+            border-width: 1px;
+            margin-left: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 2px;
+        }

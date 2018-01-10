@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "carefully",
+      "label": "Carefully",
+      "x": 2,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "cautiously",
+      "label": "Cautiously",
+      "x": 4,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "conservatively",
+      "label": "Conservatively",
+      "x": 6,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "guardedly",
+      "label": "Guardedly",
+      "x": 8,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "syn1",
+      "label": "Taking care or paying attention",
+      "x": 1,
+      "y": 2,
+      "size": 3
+    },
+    {
+      "id": "syn2",
+      "label": "With caution or prudence or tact. Expanded definition to demonstrate text wrap. Expanded definition to demonstrate text wrap.",
+      "x": 3,
+      "y": 2,
+      "size": 3
+    },
+    {
+      "id": "syn3",
+      "label": "In a conservative manner",
+      "x": 5,
+      "y": 2,
+      "size": 3
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "carefully",
+      "target": "syn1",
+      "label": "39"
+    },
+    {
+      "id": "e1",
+      "source": "carefully",
+      "target": "syn2",
+      "label": "6"
+    },
+    {
+      "id": "e2",
+      "source": "cautiously",
+      "target": "syn2",
+      "label": "4"
+    },
+    {
+      "id": "e3",
+      "source": "cautiously",
+      "target": "syn3",
+      "label": "0"
+    },
+    {
+      "id": "e4",
+      "source": "conservatively",
+      "target": "syn3",
+      "label": "1"
+    },
+    {
+      "id": "e5",
+      "source": "guardedly",
+      "target": "syn3",
+      "label": "0"
+    }
+  ]
+}

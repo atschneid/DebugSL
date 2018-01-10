@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "word1",
+      "label": "Word 1",
+      "x": 2,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "word2",
+      "label": "Word 2",
+      "x": 4,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "word3",
+      "label": "Word 3",
+      "x": 6,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "synset1",
+      "label": "Synset 1",
+      "x": 1,
+      "y": 2,
+      "size": 3
+    },
+    {
+      "id": "synset2",
+      "label": "Synset 2",
+      "x": 3,
+      "y": 2,
+      "size": 3
+    },
+    {
+      "id": "synset3",
+      "label": "Synset 3",
+      "x": 5,
+      "y": 2,
+      "size": 3
+    },
+    {
+      "id": "synset4",
+      "label": "Synset 4",
+      "x": 7,
+      "y": 2,
+      "size": 3
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "word1",
+      "target": "synset1"
+    },
+    {
+      "id": "e1",
+      "source": "word1",
+      "target": "synset2"
+    },
+    {
+      "id": "e2",
+      "source": "word2",
+      "target": "synset1"
+    },
+    {
+      "id": "e3",
+      "source": "word2",
+      "target": "synset3"
+    },
+    {
+      "id": "e4",
+      "source": "word3",
+      "target": "synset4"
+    }
+  ]
+}

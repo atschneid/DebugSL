@@ -1,0 +1,31 @@
+Input file [3in1_adj.properties]. 
+Finished building components for [adjective]. Total [1259] components. 
+
+Input file [3in1_adv.properties]. 
+Finished building components for [adverb]. Total [658] components. 
+
+Input file [3in1_noun.properties]. 
+Finished building components for [noun]. Total [1376] components. 
+
+Input file [3in1_verb.properties]. 
+Finished building components for [verb]. Total [504] components. 
+
+Input file [AppLexicon_adj.properties]. 
+Finished building components for [adjective]. Total [612] components. 
+
+Input file [AppLexicon_adv.properties]. 
+Finished building components for [adverb]. Total [266] components. 
+
+Input file [AppLexicon_noun.properties]. 
+Finished building components for [noun]. Total [2] components. 
+
+Input file [GeneralInquirer_adj.properties]. 
+Finished building components for [adjective]. Total [626] components. 
+
+Input file [GeneralInquirer_adv.properties]. 
+Finished building components for [adverb]. Total [45] components. 
+
+Input file [GeneralInquirer_noun.properties]. 
+Finished building components for [noun]. Total [939] components. 
+
+Input file [GeneralInquirer_verb.properties]. 
